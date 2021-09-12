@@ -20,11 +20,11 @@ int main()
     cout << long1 << endl;
     cout << character << endl;
     //*********************Using fixed************************//
-    //cout << fixed << floatnumber << setprecision(3) << endl;
-    //cout << fixed << doublenumber << setprecision(9) << endl; //Fixed for precision. How to do scanf? 
+    cout << fixed << floatnumber << setprecision(3) << endl;
+    cout << fixed << doublenumber << setprecision(9) << endl; //Fixed for precision. How to do scanf? 
 
 
-    scanf("% .3f", &floatnumber);
+    /*  printf("% .3f", floatnumber);*/
 
 
 
